@@ -7,6 +7,7 @@ License: https://www.wowthemes.net/freebies-license/
 body {
 	padding-top:0rem;
 	font-family: sf pro display;
+	scroll-behavior: smooth;
 }
 
 nav {
@@ -16,12 +17,14 @@ nav {
     background-color: rgba(117, 117, 118, 0.054);
     line-height: 25px;
     backdrop-filter: blur(20px);
-    position: fixed;
+    
+	position: relative;
 	
   }
   nav ul{
     float: right;
     margin-right: 30px;
+	margin-top: none;
   }
   nav ul li{
 	  
@@ -36,10 +39,12 @@ nav {
     font-weight:400;
     color: rgb(114, 114, 114);
     padding: 30px;
+	
   }
   nav ul li a:hover{
     color:#454545;
     font-weight: bold;
+	text-decoration: none;
   }
 
 
